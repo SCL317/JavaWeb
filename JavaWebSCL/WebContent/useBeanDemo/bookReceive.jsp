@@ -2,13 +2,13 @@
 	pageEncoding="UTF-8"%>
 <%@page import="useBeanDemo.*"%>
 <jsp:useBean id="book" class="useBeanDemo.bookBean" scope="page" >
-<jsp:setProperty property="*" name="book"/>
+<%-- <jsp:setProperty property="*" name="book"/> --%>
 
-<jsp:setProperty property="bookName" name="book"/>
-<jsp:setProperty property="bookNum" name="book"/>
+<%-- <jsp:setProperty property="bookName" name="book"/> --%>
+<%-- <jsp:setProperty property="bookNum" name="book"/> --%>
 
-<jsp:setProperty property="bookName" name="book" value="aaaaa"/>
-<jsp:setProperty property="bookNum" name="book" value="1111"/>
+<%-- <jsp:setProperty property="bookName" name="book" value="aaaaa"/> --%>
+<%-- <jsp:setProperty property="bookNum" name="book" value="1111"/> --%>
 
 <jsp:setProperty property="bookName" name="book" param="bookName"/>
 <jsp:setProperty property="bookNum" name="book" param="bookNum"/>
