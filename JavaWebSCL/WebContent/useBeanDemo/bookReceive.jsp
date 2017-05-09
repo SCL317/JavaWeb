@@ -4,14 +4,14 @@
 <jsp:useBean id="book" class="useBeanDemo.bookBean" scope="page" >
 <%-- <jsp:setProperty property="*" name="book"/> --%>
 
-<%-- <jsp:setProperty property="bookName" name="book"/> --%>
-<%-- <jsp:setProperty property="bookNum" name="book"/> --%>
+<jsp:setProperty property="bookName" name="book"/>
+<jsp:setProperty property="bookNum" name="book"/>
 
 <%-- <jsp:setProperty property="bookName" name="book" value="aaaaa"/> --%>
 <%-- <jsp:setProperty property="bookNum" name="book" value="1111"/> --%>
 
-<jsp:setProperty property="bookName" name="book" param="bookName"/>
-<jsp:setProperty property="bookNum" name="book" param="bookNum"/>
+<%-- <jsp:setProperty property="bookName" name="book" param="bookName"/> --%>
+<%-- <jsp:setProperty property="bookNum" name="book" param="bookNum"/> --%>
 </jsp:useBean>
 <!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
 <html>
