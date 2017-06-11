@@ -14,8 +14,8 @@
 	<jsp:include page="../FZDemo/newText3.html" flush="true" />
 	<jsp:include page="../FZDemo/newText4.html" flush="true" />
 	<jsp:include page="newText5.jsp" flush="true">
-		<%-- 一定写真确不能用<!--这个 --%>
-		<jsp:param value="张三zhangsan" name="name" />
+	
+		<jsp:param value="zhangsan" name="name" />
 		<jsp:param value="20" name="age" />
 	</jsp:include>
 	<!-- 	注意这个包裹的关系 -->
